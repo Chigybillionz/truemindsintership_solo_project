@@ -3,14 +3,16 @@
     <header
       class="bg-white h-20 flex items-center justify-between px-6 lg:px-20 shadow-sm border-b border-gray-100 sticky top-0 z-30"
     >
-      <img
-        src="/logo.png"
-        alt="Chuks Kitchen"
-        class="h-8 lg:h-10 object-contain"
-      />
+      <div class="flex items-center h-full">
+        <img
+          src="/logo.png"
+          alt="Chuks Kitchen"
+          class="h-8 lg:h-10 object-contain"
+        />
+      </div>
 
       <nav
-        class="hidden lg:flex items-center space-x-16 text-[#1A1A1A] font-medium"
+        class="hidden lg:flex items-center h-full space-x-16 text-[#1A1A1A] font-medium"
       >
         <a href="#" class="cursor-wait hover:text-orange-500 transition-colors"
           >Home</a
@@ -26,14 +28,14 @@
         >
       </nav>
 
-      <div class="flex items-center">
+      <div class="flex items-center h-full">
         <button
           class="hidden lg:block bg-[#FD7E14] opacity-80 cursor-wait text-white px-10 py-2.5 rounded-lg font-bold transition-all"
         >
           Login
         </button>
 
-        <button class="lg:hidden p-1">
+        <button class="lg:hidden flex items-center p-1">
           <img src="/menu.png" alt="Menu" class="w-7 h-7" />
         </button>
       </div>
@@ -127,21 +129,15 @@
 </template>
 
 <script setup>
-/**
- * Scroll to top functionality for the footer button
- */
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
 </script>
 
 <style scoped>
-/* Standard loading state cursor */
 .cursor-wait {
   cursor: wait;
 }
-
-/* Serif font for footer branding to match logo style */
 .font-serif {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
