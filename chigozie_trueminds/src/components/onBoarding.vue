@@ -4,7 +4,7 @@
     <div class="lg:hidden">
       <div class="mx-4 mt-4 h-48 overflow-hidden rounded-2xl">
         <img
-          src="/desktoponboarding.png"
+          src="/plaintain.png"
           alt="Nigerian Food"
           class="w-full h-full object-cover"
         />

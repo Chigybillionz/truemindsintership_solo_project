@@ -79,7 +79,9 @@
         <h1
           class="font-['Inter'] font-medium text-[16px] leading-[24px] tracking-[0%] text-center text-black mb-4"
         >
-          Your delicious Chuks Kitchen meal is on its way!
+          Your delicious Chuks Kitchen meal is on
+          <br class="block sm:hidden" />
+          its way!
         </h1>
       </div>
 
