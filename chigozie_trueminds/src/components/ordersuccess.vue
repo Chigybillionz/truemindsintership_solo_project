@@ -41,14 +41,86 @@
       </div>
     </header>
 
-    <div class="flex-grow flex items-center justify-center">
-      <div class="w-20 h-20 lg:w-24 lg:h-24">
-        <img
-          src="/loading.png"
-          alt="Loading..."
-          class="animate-spin w-full h-full object-contain"
-        />
+    <div
+      class="min-h-screen bg-white flex flex-col items-center justify-center px-4 py-12"
+    >
+      <!-- Top success icon -->
+      <div class="mb-8">
+        <div
+          class="w-24 h-24 bg-green-600 rounded-full flex items-center justify-center shadow-lg"
+        >
+          <svg
+            width="89"
+            height="89"
+            viewBox="0 0 89 89"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="89" height="89" rx="44.5" fill="#0E7A3E" />
+            <path
+              d="M27.8125 44.5L38.9375 55.625L61.1875 33.375"
+              stroke="white"
+              stroke-width="4.63542"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
       </div>
+
+      <!-- Main message -->
+      <div class="text-center mb-10">
+        <h1
+          class="font-['Inter'] font-medium text-[16px] leading-[24px] tracking-[0%] text-center text-black mb-4"
+        >
+          <!-- Your heading content here -->
+          Order Placed Successfully!
+        </h1>
+        <h1
+          class="font-['Inter'] font-medium text-[16px] leading-[24px] tracking-[0%] text-center text-black mb-4"
+        >
+          Your delicious Chuks Kitchen meal is on its way!
+        </h1>
+      </div>
+
+      <!-- Loading indicator -->
+      <div class="mb-12">
+        <div class="w-3 h-3 bg-green-500 rounded-full animate-ping"></div>
+      </div>
+
+      <!-- Order number section -->
+      <div class="w-full max-w-md p-6 mb-8 text-center">
+        <p
+          class="font-['Inter'] font-medium text-[24px] leading-[34px] tracking-[0%] text-center text-black"
+        >
+          Order #123RGR231567Y Confirmed
+        </p>
+        <div class="w-full max-w-md space-y-5">
+          <button
+            class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 px-6 rounded-xl transition-colors duration-200 shadow-md"
+          >
+            Track Order
+          </button>
+
+          <button
+            class="w-full bg-transparent hover:border-gray-500 text-gray-300 font-semibold py-4 px-6 rounded-xl transition-colors duration-200"
+          >
+            Generate Receipt
+          </button>
+          <div class="mt-10">
+            <a
+              href="#"
+              class="text-blue-400 hover:text-blue-300 text-sm hover:underline transition-colors"
+            >
+              Need help with your order?
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action buttons -->
+
+      <!-- Help link -->
     </div>
 
     <footer

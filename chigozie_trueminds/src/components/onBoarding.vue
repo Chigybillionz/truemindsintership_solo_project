@@ -12,16 +12,17 @@
 
       <div class="flex justify-end px-4 py-3">
         <button
-          class="border-2 border-blue-500 text-blue-500 bg-white px-6 py-2 rounded-2xl font-semibold text-sm"
+          class="border-2 border-blue-500 text-blue-500 bg-white w-[116px] h-[46px] rounded-[10px] font-semibold text-sm flex items-center justify-center <!-- centers text nicely --> opacity-100"
         >
           Sign In
         </button>
       </div>
 
-      <div class="px-6 pb-8">
-        <h2 class="text-center text-orange-400 font-script text-3xl mb-5">
-          Chuks Kitchen
-        </h2>
+      <div class="px-6 pb-12 mt-12">
+        <div class="flex justify-center">
+          <img src="/logo.png" alt="Chuks Kitchen" class="h-8 mx-auto" />
+        </div>
+
         <h1 class="font-bold text-[32px] leading-[40px] text-[#1F2937] mb-4">
           Your Authentic Taste of Nigeria
         </h1>
@@ -160,7 +161,7 @@
             and care.
           </p>
           <p class="text-xs text-gray-400 mt-8">
-            © 2026 Lift Media. All rights reserved.
+            © 2020 Lift Media. All rights reserved.
           </p>
         </div>
         <div>
@@ -210,13 +211,9 @@
 <script setup>
 const features = [
   { label: "Freshly Prepared", icon: "/support.png" },
-  { label: "Support Local Business", icon: "/support.png" },
-  { label: "Fast & Reliable Delivery", icon: "/fastdelivery.png" },
+  { label: "Freshly Prepared", icon: "/support.png" },
+  { label: "Freshly Prepared", icon: "/support.png" },
 ];
-
-const scrollToTop = () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-};
 </script>
 
 <style scoped>

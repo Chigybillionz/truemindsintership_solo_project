@@ -5,6 +5,7 @@ import SignUp from "./components/signUp.vue";
 import DeliveryDetails from "./components/deliverydetails.vue";
 import { ref } from "vue";
 import Loadingpage from "./components/loadingpage.vue";
+import OrderSuccess from "./components/ordersuccess.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Loadingpage from "./components/loadingpage.vue";
     <SignUp />
     <DeliveryDetails />
     <Loadingpage />
+    <OrderSuccess />
   </div>
 </template>
 
