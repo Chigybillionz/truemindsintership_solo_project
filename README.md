@@ -107,6 +107,7 @@ The documentation should be updated as new features or integrations are added to
 
 
 
-   
+   you can vist the live link i hosted on vercel uisng the below link: 
+   https://truemindsintership-solo-project.vercel.app/
    
 
